@@ -6,7 +6,7 @@ namespace OrderDetailsMaintenance
 {
     public partial class frmCustomerMaintenance : Form
     {
-        private NorthwindContext _context;//Instantiated the Northwind DB object and called this this instance "_context"
+        private NorthwindContext _context;//Instantiated the Northwind DB object and called this instance "_context"
         private Customer _customer;// Instantiated the Class Customer that is part of the Northwind parent class
 
         public frmCustomerMaintenance()
@@ -14,7 +14,7 @@ namespace OrderDetailsMaintenance
             InitializeComponent();
 
         }
-
+        //Jon Soriano Sanjuan
         private void btnFind_Click(object sender, EventArgs e)
         {
             //Since we are needing the "Find" button to perform actions, makes sense to assign the variable "_context" and "_customer" inside
@@ -55,7 +55,7 @@ namespace OrderDetailsMaintenance
             }
 
         }
-
+        //Jon Soriano Sanjuan
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close(); //Close() method is the same as "System.exit(0)" in java.
